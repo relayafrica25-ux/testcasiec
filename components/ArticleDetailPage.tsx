@@ -161,7 +161,7 @@ export const ArticleDetailPage: React.FC<ArticleDetailPageProps> = ({ article, o
             {!article.content ? (
               <>
                 <p>
-                  In the rapidly shifting landscape of continental finance, the ability to architect structured capital remains the primary differentiator for sustainable growth. As we move into the current fiscal cycle, the integration of institutional-grade intermediation is no longer just an advantage—it is a mandatory requirement for NMSE scaling.
+                     In the rapidly shifting landscape of continental finance, the ability to architect structured capital remains the primary differentiator for sustainable growth. As we move into the current fiscal cycle, the integration of institutional-grade intermediation is no longer just an advantage, it is a mandatory requirement for NMSE scaling.
                 </p>
 
                 <h2 className="text-3xl font-black text-white uppercase italic tracking-tighter mt-16 mb-8 border-b border-white/5 pb-4">The Infrastructure of Inclusion</h2>
@@ -182,7 +182,7 @@ export const ArticleDetailPage: React.FC<ArticleDetailPageProps> = ({ article, o
                 </div>
 
                 <p>
-                  Looking ahead, our strategic alliances with partners like Broastreet DyDX will continue to provide the logistics and research backbone necessary for enterprise sustainability. The future of finance is collaborative, data-driven, and radically committed to excellence. By aligning our credit mandates with regional development goals, we ensure that every naira deployed contributes to the broader narrative of African prosperity.
+                  Looking ahead, our strategic alliances with partners like Broastreet DyDX will continue to provide the logistics and research backbone necessary for enterprise sustainability. The future of finance is collaborative, data-driven, and radically committed to excellence. By aligning our credit mandates with national development goals, we ensure that every naira deployed contributes to the broader narrative of African prosperity.
                 </p>
               </>
             ) : (

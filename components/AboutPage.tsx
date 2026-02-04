@@ -117,14 +117,14 @@ export const AboutPage: React.FC = () => {
               <div className="w-14 h-14 bg-emerald-500/20 rounded-2xl flex items-center justify-center text-emerald-400 mb-8 group-hover:scale-110 transition-transform">
                 <Sparkles size={28} />
               </div>
-              <h3 className="text-2xl font-black text-white mb-4 uppercase italic tracking-tighter">The GOI Factor</h3>
+              <h3 className="text-2xl font-black text-white mb-4 uppercase italic tracking-tighter">Words On The Marble</h3>
               <p className="text-emerald-400 leading-tight text-2xl font-black italic tracking-tight">
-                God’s Own Institution <br />
+               God's Own Institution <br />
                 <span className="text-white/60 text-lg font-bold not-italic">(GOI factor)</span>
               </p>
               <p className="text-emerald-400 leading-tight text-2xl font-black italic tracking-tight">
-                Words On The Marble<br />
-                <span className="text-white/60 text-lg font-bold not-italic">(GOI factor)</span>
+                 <br />
+                <span className="text-white/60 text-lg font-bold not-italic"></span>
               </p>
             </article>
           </div>

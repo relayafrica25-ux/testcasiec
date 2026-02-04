@@ -55,9 +55,6 @@ export const TeamPage: React.FC = () => {
                     <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20"></div>
                   )}
                   <div className="absolute bottom-4 left-4 right-4 flex justify-between items-center z-10">
-                    <span className="px-3 py-1 bg-black/60 backdrop-blur-md border border-white/10 text-[10px] font-bold text-white uppercase tracking-widest rounded-full">
-                      {member.specialization}
-                    </span>
                     {member.linkedin && (
                       <a href={member.linkedin} target="_blank" rel="noreferrer" className="w-8 h-8 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center text-white/50 group-hover:text-white transition-colors">
                         <Linkedin size={14} />

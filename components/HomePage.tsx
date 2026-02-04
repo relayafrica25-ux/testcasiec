@@ -161,9 +161,9 @@ export const HomePage: React.FC<HomePageProps> = ({ onApplyClick, onNavigate, on
                 <Wallet size={32} />
               </div>
               <h2 className="text-4xl font-black text-white mb-4 tracking-tighter uppercase italic">Casiec Financials</h2>
-              <p className="text-gray-200 mb-8 leading-relaxed font-medium">Lending solutions managed by CASIEC Financials, focused on financial intermediation and NMSE stimulation.</p>
+              <p className="text-gray-200 mb-8 leading-relaxed font-medium">Focused on driving financial inclusion to stimulate economic prosperity.</p>
               <ul className="space-y-4 mb-12 flex-grow">
-                {["Wealth Management", "NMSE Development Credit", "Wealth Management Advisory", "Supply Chain Liquidity"].map((item, i) => (
+                {["Asset Finance", "Consumer Loan", "Gender Credit" ].map((item, i) => (
                   <li key={i} className="flex items-center gap-4 text-sm font-bold text-gray-300">
                     <div className="w-2 h-2 rounded-full bg-nova-500 shadow-[0_0_10px_rgba(37,99,235,0.5)]"></div>
                     {item}
@@ -179,10 +179,10 @@ export const HomePage: React.FC<HomePageProps> = ({ onApplyClick, onNavigate, on
               <div className="w-16 h-16 bg-orange-500/20 rounded-2xl flex items-center justify-center text-orange-400 mb-10 group-hover:scale-110 transition-transform shadow-inner">
                 <Briefcase size={32} />
               </div>
-              <h2 className="text-4xl font-black text-white mb-4 tracking-tighter uppercase italic">GSI Alliances</h2>
-              <p className="text-gray-200 mb-8 leading-relaxed font-medium">Global Strategic Alliances powered by Broastreet DyDX, delivering corporate research and logistics architecture.</p>
+              <h2 className="text-4xl font-black text-white mb-4 tracking-tighter uppercase italic">GSI Strategic Alliances</h2>
+              <p className="text-gray-200 mb-8 leading-relaxed font-medium">Broastreet specializes in scaling strategies for impact, which includes but not limited to capital raising from either debt, equity or hybrid financing instruments. Beyond Capital scaling, we can also provide complementary support in areas like Business Strategy and other Management System Optimization support services to promote the concept of sustainable enterprise.</p>
               <ul className="space-y-4 mb-12 flex-grow">
-                {["Business Development", "Strategic Outsourcing", "Coperate finance & Advisory"].map((item, i) => (
+                {[].map((item, i) => (
                   <li key={i} className="flex items-center gap-4 text-sm font-bold text-gray-300">
                     <div className="w-2 h-2 rounded-full bg-orange-500 shadow-[0_0_10px_rgba(249,115,22,0.5)]"></div>
                     {item}

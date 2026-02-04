@@ -1023,12 +1023,8 @@ export const AdminDashboard: React.FC<{ onBack: () => void }> = ({ onBack }) => 
                   </div>
                   <div>
                     <label className="block text-[10px] text-gray-500 uppercase font-black tracking-widest mb-3 ml-2">Official Designation*</label>
-                    <input required type="text" value={newTeamMember.role} onChange={(e) => setNewTeamMember({ ...newTeamMember, role: e.target.value })} className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 px-6 text-white focus:border-nova-500 outline-none font-bold" />
+                    <input required type="text" value={newTeamMember.role} onChange={(e) => setNewTeamMember({ ...newTeamMember, role: e.target.value })}  className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 px-6 text-white focus:border-nova-500 outline-none font-bold" />
                   </div>
-                </div>
-                <div>
-                  <label className="block text-[10px] text-gray-500 uppercase font-black tracking-widest mb-3 ml-2">Specialized Domain*</label>
-                  <input required type="text" value={newTeamMember.specialization} onChange={(e) => setNewTeamMember({ ...newTeamMember, specialization: e.target.value })} className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 px-6 text-white focus:border-nova-500 outline-none font-bold" placeholder="e.g. Asset Engineering" />
                 </div>
                 <div>
                   <label className="block text-[10px] text-gray-500 uppercase font-black tracking-widest mb-3 ml-2">Leader Intel / Bio*</label>

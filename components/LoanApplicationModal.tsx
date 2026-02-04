@@ -196,7 +196,7 @@ export const LoanApplicationModal: React.FC<LoanApplicationModalProps> = ({ isOp
                     </div>
                   ))
                 ) : (
-                  ['Business Support Services', 'Corporate Finance, Research & Advisory', 'Supply Chain, Commodity Trading & Distribution'].map((label) => (
+                  ['Business Development', 'Strategic Outsourcing', 'Expert Advisory', 'Corporate Finance & Advisory'].map((label) => (
                     <div key={label} onClick={() => { setFormData({ ...formData, serviceType: label }); setTimeout(nextStep, 200); }} className={`p-6 rounded-xl border cursor-pointer transition-all flex items-center gap-4 ${formData.serviceType === label ? 'bg-purple-500/20 border-purple-500' : 'bg-white/5 border-white/5 hover:bg-white/10'}`}>
                       <span className="font-bold text-base tracking-tight">{label}</span>
                     </div>

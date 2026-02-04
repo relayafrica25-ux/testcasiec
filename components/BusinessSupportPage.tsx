@@ -36,9 +36,6 @@ export const BusinessSupportPage: React.FC<BusinessSupportPageProps> = ({ onInqu
       <div className="relative py-20 md:py-32 overflow-hidden">
         <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-orange-500/10 rounded-full blur-[120px] -z-10 animate-pulse-slow"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-flex items-center gap-2 mb-8 transform hover:scale-105 transition-transform duration-500">
-            <BroastreetLogo size="md" />
-          </div>
 
           <h1 className="text-5xl md:text-8xl font-black mb-8 tracking-tighter text-white uppercase italic leading-[0.9]">
             Strategic <br />

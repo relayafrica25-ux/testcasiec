@@ -56,9 +56,6 @@ export const BusinessFundingPage: React.FC<BusinessFundingPageProps> = ({ onAppl
       <div className="relative py-24 md:py-32 overflow-hidden border-b border-white/5">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-nova-500/10 rounded-full blur-[120px] -z-10 animate-pulse-slow"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="flex justify-center mb-12 animate-fade-in-up">
-            <Logo size="md" />
-          </div>
 
           <h1 className="text-5xl md:text-7xl font-black mb-10 tracking-tighter text-white animate-fade-in-up uppercase italic leading-[0.95]">
             Capital that <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-nova-400 to-nova-500">Empowers Change.</span>
