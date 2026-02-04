@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /staff
+
+# Sitemap Location
+Sitemap: https://www.casiecfinancials.com/sitemap.xml
